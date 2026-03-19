@@ -3,14 +3,25 @@
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.18092979.svg)](https://doi.org/10.5281/zenodo.18092979)
 [![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
 
-Supplementary material for the journal publication Rodés-Bachs, C., Sampedro, J., Van de Ven, D., Horowitz, R., Pardo, G., and Zhao, X. (2025) Region-specific and nutritionally adequate dietary transitions can bolster sustainability and socioeconomic benefits.
+Supplementary material for the journal publication **Rodés-Bachs, C., Sampedro, J., Van de Ven, D., Horowitz, R., Pardo, G., & Zhao, X. (2026).
+[Region-specific and nutritionally adequate dietary transitions can bolster sustainability and socioeconomic benefits](https://www.nature.com/articles/s43016-026-01316-1). Nature Food. DOI: [10.1038/s43016-026-01316-1](10.1038/s43016-026-01316-1)**.
 
-This repository is released under the Apache v2.0 license; see the LICENSE for details.
+
+Related repositories:
+
+* [Code Ocean Platform](https://doi.org/10.24433/CO.8681666.v1): online interactive version of the analysis code. It also contains the required data.
+* [Data Zenodo archive](https://doi.org/10.5281/zenodo.18086406): data required for the analysis descrived in this repo.
+* [Code Zenodo archive](https://doi.org/10.5281/zenodo.18092979): latest version of the analysis code provided in this repo.
+* [GCAM version](https://github.com/klau506/gcam-core/tree/gcam_v7.0p_diets): GCAM version used to run all 1,298 dietary change the scenarios.
+
+This repository is released under the Apache v2.0 license; see the LICENSE for details. For any doubts, contact claudia.rodes@bc3research.org.
 
 
 ## What's in this repo?
 
-This repository contains the figures and analysis code used in the study. It is structured in the following way:
+This repository provides the complete analysis code and data visualization scripts used in the study. To ensure seamless reproducibility, we provide a Docker image containing the full environment. Alternatively, you can access an interactive online version of the analysis via the [Code Ocean Platform](https://doi.org/10.24433/CO.8681666.v1).
+
+This repo is structured in the following way:
 
 - `R` folder: R scripts.
 - `data` folder: folder to store the data for the analysis and figure creation.
